@@ -13,7 +13,7 @@
             <ul>
                 <li><a href="#">Home</a></li>
                 <li><a href="#">Blog Posts</a></li>
-                <li><a href="#">Contact</a></li>
+                <li><a href="#contact">Contact</a></li>
             </ul>
         </nav>
     </header>
@@ -45,13 +45,14 @@
     </div>
 
     <!---------------------------------------- Detailed Blog Post Views ---------------------------------------->
-    <div>
+
         <!-- Blog Post 1 -->
+        <div>
         <a name="post1"></a>
+        <img src="https://picsum.photos/800/400" alt="React.js Beginner's Guide">
         <h1>Getting Started with React: A Beginner's Guide</h1>
         <address>Author: Mohamed Ali</address>
         <time datetime="2024-12-01">December 1, 2024</time>
-        <img src="https://picsum.photos/800/400" alt="React.js Beginner's Guide">
         <p>
             React.js is a powerful JavaScript library for building user interfaces. This beginner's guide will cover key concepts to get you started.
         </p>
@@ -68,10 +69,10 @@
     <!-- Blog Post 2 -->
     <div>
         <a name="post2"></a>
+        <img src="https://picsum.photos/800/400" alt="Best Practices for React">
         <h1>10 Best Practices for Building Scalable React Applications</h1>
         <address>Author: Mohamed Ali</address>
         <time datetime="2024-12-10">December 10, 2024</time>
-        <img src="https://picsum.photos/800/400" alt="Best Practices for React">
         <p>Building scalable React applications requires following some best practices. In this guide, we'll discuss:</p>
         <ol>
             <li>Organizing your project structure.</li>
@@ -84,10 +85,10 @@
     <!-- Blog Post 3 -->
     <div>
         <a name="post3"></a>
+        <img src="https://picsum.photos/800/400" alt="Future of Web Development">
         <h1>The Future of Web Development: Trends to Watch in 2024</h1>
         <address>Author: Mohamed Ali</address>
         <time datetime="2024-12-12">December 12, 2024</time>
-        <img src="https://picsum.photos/800/400" alt="Future of Web Development">
         <p>As web development evolves, here are the trends to watch in 2024:</p>
         <ul>
             <li>Advancements in server-side rendering and React frameworks.</li>
@@ -96,6 +97,50 @@
         </ul>
         <p>Staying updated on these trends will help you remain competitive in the ever-changing web development landscape.</p>
     </div>
+    
+    
+    <!---------------------------------------- Contact Form Section ---------------------------------------->
+    <div>
+        <a name="contact"></a>
+        <h2>Get In Touch</h2>
+        <form action="#" method="post">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required><br><br>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required><br><br>
+            
+            <label for="message">Message:</label><br>
+            <textarea id="message" name="message" rows="5" cols="30" required></textarea><br><br>
+            
+            <input type="submit" value="Send Message">
+        </form>
+    </div>
+
+    <!---------------------------------------- Contact Information Table ---------------------------------------->
+    <div>
+        <h2>Contact Information</h2>
+        <table border="1">
+                <tr>
+                    <td>Phone Number</td>
+                    <td>+971 562 932 271</td>
+                </tr>
+                <tr>
+                    <td>Gmail</td>
+                    <td>mohamedgisimelsied@gmail.com</td>
+                </tr>
+                <tr>
+                    <td>Location</td>
+                    <td>UAE, Ajman</td>
+                </tr>
+
+                <tr>
+                    <td>Working hours</td>
+                    <td>sunday - Thursday from 9AM to 5PM</td>
+                </tr>
+        </table>
+    </div>
+
 
 </body>
 </html>
